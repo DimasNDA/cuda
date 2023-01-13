@@ -1,0 +1,163 @@
+/*==========  Desktop First Method  ==========*/ 
+
+@media only screen and (max-width : 1400px) {
+	
+} 
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) { 
+	.container{
+		width: 970px;
+	}
+	.footer-links li{
+		margin-left: 0;
+		margin-right: 0;
+	}
+} 
+
+/* Medium Devices, Desktops */ 
+@media only screen and (max-width : 992px) { 
+	.container{
+		width: 750px;
+	}
+	.md-col-1x{
+		width: 100%;
+	}
+	.md-col-2x{
+		width: 50%;
+	}
+	.wrap-purple .about-us-wrap .col-25{
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-bottom: 30px;
+	}
+	.section{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.col-item{
+		margin-bottom: 20px;
+	}
+	
+	.wrap-sky .services-description{
+		min-height: auto;
+	}
+	h1{
+		font-size: 34px;
+	}
+	h1 br{
+		display: none;
+	}
+	p br{
+		display: none;
+	}
+	h2{
+		font-size: 28px;
+		line-height: 34px;
+	}
+	.header{
+		margin-bottom: 35px;
+	}
+	.wrap-violet{
+		padding-bottom: 50px;
+		padding-top: 30px;
+	}
+	.nav{
+		position: fixed;
+	    left: 0;
+	    top: 0;
+	    bottom: 0;
+	    background-color: rgba(0,0,0,0.9);
+	    width: 280px;
+	    padding: 20px;
+	    transform: translateX(-100%);
+	    transition: transform 0.3s ease-in-out;
+	}
+	.nav.active{
+		transform: translateX(0);
+	}
+	.nav ul{
+		flex-direction: column;
+	}
+	.nav ul li a{
+		display: block;
+	}
+	.nav ul li{
+		margin-bottom: 20px;
+	}
+} 
+
+/* Small Devices, Tablets */ 
+@media only screen and (max-width : 768px) { 
+	.container{
+		width: 550px;
+	}
+	.sd-col-1x{
+		width: 100%;
+	}
+
+} 
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 576px) { 
+	.container{
+		width: 100%;
+	}
+	.exsd-col-1x{
+		width: 100%;
+	}
+	.input-name{
+		padding-right: 0;
+		margin-bottom: 15px;
+	}
+	.input-email{
+		padding-left: 0;
+	}
+	.btn{
+		width: 250px;
+	}
+} 
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.container{
+		width: 100%;
+	}
+
+} 
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) { 
+
+} 
+
+
+/*==========  Mobile First Method  ==========*/ 
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) { 
+
+} 
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) { 
+
+} 
+
+/* Small Devices, Tablets */ 
+@media only screen and (min-width : 768px) { 
+
+} 
+
+/* Medium Devices, Desktops */ 
+@media only screen and (min-width : 992px) { 
+	.toogle-mobile-menu{
+		display: none;
+	}
+} 
+
+ /* Large Devices, Wide Screens */ 
+@media only screen and (min-width : 1200px) { 
+
+}
